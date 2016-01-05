@@ -84,6 +84,17 @@ module.exports = function(grunt)
 		
 	  
       //根据指定的html的css块，js块进行css压缩，js压缩，目标文件也是写在块上
+	  /**
+	 	<!-- build:css asset/index/index.css -->
+		<link href="asset/index/index.css" rel="stylesheet">
+		<link href="asset/index/index.css" rel="stylesheet">	
+		<!-- endbuild -->
+		
+		<!-- build:js script/index/index.js -->
+		<script type="text/javascript" src="script/index/index.js"></script>
+		<script type="text/javascript" src="script/index/index.js"></script>
+		<!-- endbuild -->
+		**/
 	  useminPrepare: 
 	  {
         html: ['build/**/*.html'],  //合并的js和 css 的 块替换地址
