@@ -84,6 +84,7 @@ module.exports = function(grunt)
 		
 	  
       //根据指定的html的css块，js块进行css压缩，js压缩，目标文件也是写在块上
+	  //可自定义其他类型，需要配置
 	  /**
 	 	<!-- build:css asset/index/index.css -->
 		<link href="asset/index/index.css" rel="stylesheet">
