@@ -1,6 +1,8 @@
 方案一：
 grunt-cli 不在project.json, 计划安装全局
 
+cd 当前目录
+
 npm install -g grunt-cli
 
 npm install
@@ -12,6 +14,7 @@ grunt build
 
 grunt-cli 包含在project.json
 
+cd 当前目录
 
 npm install  (如果 node_modules 已经存在，不需要此步）
 
