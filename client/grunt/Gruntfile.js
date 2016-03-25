@@ -1,4 +1,4 @@
-module.exports = function(grunt)
+﻿module.exports = function(grunt)
 {
     
     var setting = require('./setting');
@@ -16,7 +16,20 @@ module.exports = function(grunt)
 	  //把所有的文件拷贝到build的目录里
 	  copy: 
 	  {
-        build: 
+	build: 
+	{
+          files: 
+	  [
+            {
+              expand: true,
+              cwd: setting.projectPath,
+              src: '**',
+              dest: 'build',
+            },
+           
+          ]
+        },
+        build_old: 
 		{
           files: 
 		  [

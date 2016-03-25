@@ -19,6 +19,8 @@ node_modules\.bin\grunt.cmd build
 
 
 
+项目地址
+修改setting.js 里面 projectPath
 
 升级
 npm install grunt-cli grunt grunt-cdn grunt-contrib-clean grunt-contrib-concat grunt-contrib-copy grunt-contrib-cssmin grunt-contrib-imagemin grunt-contrib-uglify grunt-filerev grunt-usemin qn --save-dev
