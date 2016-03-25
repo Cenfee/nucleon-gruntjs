@@ -1,5 +1,23 @@
+方案一：
+grunt-cli 不在project.json, 计划安装全局
+
 npm install -g grunt-cli
 
 npm install
 
 grunt build
+
+
+方案二：
+
+grunt-cli 包含在project.json
+
+npm install
+
+node_modules\.bin\grunt.cmd build
+
+
+
+
+升级
+npm install grunt-cli grunt grunt-cdn grunt-contrib-clean grunt-contrib-concat grunt-contrib-copy grunt-contrib-cssmin grunt-contrib-imagemin grunt-contrib-uglify grunt-filerev grunt-usemin qn --save-dev
