@@ -12,7 +12,8 @@ grunt build
 
 grunt-cli 包含在project.json
 
-npm install
+
+npm install  (如果 node_modules 已经存在，不需要此步）
 
 node_modules\.bin\grunt.cmd build
 
