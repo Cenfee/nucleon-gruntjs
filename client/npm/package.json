@@ -1,0 +1,13 @@
+{
+  "name": "nucleon-gruntjs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "fs-extra": "^0.26.7",
+    "imagemin": "^4.0.0"
+  },
+  "devDependencies": {}
+}
